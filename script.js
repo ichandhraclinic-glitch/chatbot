@@ -1,7 +1,7 @@
 /* script.js (Client-Side with CORS fix) */
 
 // ใส่ URL ของ Web App ที่คุณ Deploy (ต้องลงท้ายด้วย /exec)
-const APPS_SCRIPT_URL = ""; 
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzNG-LRQwLWW_ozoJxoTbQ70dG4MMrZE3Lza0NGpqGP/dev"; 
 
 const chatMessages = document.getElementById("chatMessages");
 const userInput = document.getElementById("userInput");
@@ -116,3 +116,4 @@ userInput.addEventListener('input', function() {
     const newHeight = Math.min(this.scrollHeight, 150);
     this.style.height = (newHeight > 50 ? newHeight : 50) + 'px';
 });
+
